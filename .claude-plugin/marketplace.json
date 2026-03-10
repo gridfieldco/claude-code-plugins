@@ -1,0 +1,36 @@
+{
+  "name": "gridfield-tools",
+  "owner": {
+    "name": "Gridfield",
+    "email": "ed@gridfield.co"
+  },
+  "metadata": {
+    "description": "Gridfield's collection of Claude Code plugins for developer productivity",
+    "version": "1.0.0",
+    "pluginRoot": "./plugins"
+  },
+  "plugins": [
+    {
+      "name": "commit-prep",
+      "source": "./plugins/commit-prep",
+      "description": "Review staged changes and draft a commit message before committing",
+      "version": "1.0.0",
+      "author": {
+        "name": "Gridfield"
+      },
+      "category": "git",
+      "tags": ["git", "commit", "review"]
+    },
+    {
+      "name": "explain-error",
+      "source": "./plugins/explain-error",
+      "description": "Paste an error message and get a concise explanation with fix suggestions",
+      "version": "1.0.0",
+      "author": {
+        "name": "Gridfield"
+      },
+      "category": "debugging",
+      "tags": ["debug", "errors", "troubleshooting"]
+    }
+  ]
+}
