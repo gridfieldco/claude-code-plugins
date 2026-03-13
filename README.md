@@ -21,3 +21,4 @@ Tools for managing Gridfield leads and plot documents.
 **Skills:**
 
 - `/file-to-plot` — File documents into the correct plot folder on Google Drive, create folders with standardized naming, maintain document indexes.
+- `/lead-crm` — Create and update Plots, Contacts, and Organisations in the Notion Leads Module with correct relations and deduplication.
