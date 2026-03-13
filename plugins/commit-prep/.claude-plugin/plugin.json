@@ -1,5 +1,0 @@
-{
-  "name": "commit-prep",
-  "description": "Review staged changes and draft a commit message before committing",
-  "version": "1.0.0"
-}

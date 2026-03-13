@@ -5,32 +5,21 @@
     "email": "ed@gridfield.co"
   },
   "metadata": {
-    "description": "Gridfield's collection of Claude Code plugins for developer productivity",
-    "version": "1.0.0",
+    "description": "Gridfield's Claude Code plugins for CRM and leads management",
+    "version": "2.0.0",
     "pluginRoot": "./plugins"
   },
   "plugins": [
     {
-      "name": "commit-prep",
-      "source": "./plugins/commit-prep",
-      "description": "Review staged changes and draft a commit message before committing",
+      "name": "leads-module",
+      "source": "./plugins/leads-module",
+      "description": "Gridfield leads management tools — file documents into plot folders, manage lead workflows",
       "version": "1.0.0",
       "author": {
         "name": "Gridfield"
       },
-      "category": "git",
-      "tags": ["git", "commit", "review"]
-    },
-    {
-      "name": "explain-error",
-      "source": "./plugins/explain-error",
-      "description": "Paste an error message and get a concise explanation with fix suggestions",
-      "version": "1.0.0",
-      "author": {
-        "name": "Gridfield"
-      },
-      "category": "debugging",
-      "tags": ["debug", "errors", "troubleshooting"]
+      "category": "crm",
+      "tags": ["leads", "plots", "documents", "google-drive", "notion"]
     }
   ]
 }

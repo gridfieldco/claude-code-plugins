@@ -1,6 +1,6 @@
 # Gridfield Claude Code Plugins
 
-A plugin marketplace for Claude Code with developer productivity tools.
+A plugin marketplace for Claude Code with Gridfield CRM and leads management tools.
 
 ## Installation
 
@@ -10,22 +10,14 @@ A plugin marketplace for Claude Code with developer productivity tools.
 
 ## Available Plugins
 
-### commit-prep
-Review staged git changes and draft a conventional commit message.
+### leads-module
+
+Tools for managing Gridfield leads and plot documents.
 
 ```shell
-/plugin install commit-prep@gridfield-tools
-/commit-prep
+/plugin install leads-module@gridfield-tools
 ```
 
-### explain-error
-Paste an error message and get a concise explanation with fix suggestions.
+**Skills:**
 
-```shell
-/plugin install explain-error@gridfield-tools
-/explain-error <paste your error>
-```
-
-## Adding Plugins
-
-Want to contribute? Add your plugin under `plugins/` and register it in `.claude-plugin/marketplace.json`.
+- `/file-to-plot` — File documents into the correct plot folder on Google Drive, create folders with standardized naming, maintain document indexes.
