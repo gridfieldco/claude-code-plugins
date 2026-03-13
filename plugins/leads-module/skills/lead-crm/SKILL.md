@@ -121,6 +121,14 @@ For Bebauungsplan Status, write `Unknown — verify via Gemeinde [municipality]`
 Ask the user if something critical is ambiguous (which plot a contact belongs to, whether
 an organisation already exists under a different name, etc.).
 
+## Fields the AI must never set autonomously
+
+- **Power Feasibility** — human judgment only. Leave empty when creating from email.
+- **Tier** — human judgment only. Leave empty when creating from email.
+- **Assigned To** — leave empty unless explicitly told who to assign.
+
+These fields require context that is not available in a single email.
+
 ## Updating existing records
 
 - **Notes**: prepend at the top with `YYYY-MM-DD — [update text]`
