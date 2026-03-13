@@ -38,18 +38,22 @@ Examples: `Frankfurt — Industriepark Höchst — Müller Immobilien GmbH`,
 2. **Fetch plot properties** — Name, Nearest Metro, Primary Contact, Organisation, Lead Source, Drive Folder URL
 3. **Find or create folder** — list base directory, fuzzy-match existing folders on metro + name. Create with `mkdir -p` if missing
 4. **Place the file** — keep descriptive filenames as-is. Rename generic ones (`document.pdf`, `image001.png`) to `[Type] — [Description].[ext]`
-5. **Update index.md** — analyze the document, prepend entry (newest first):
+5. **Update index.md** — analyze the document and add an entry. If the file doesn't exist yet, create it with the header line first. Insert the new `## [filename]` block immediately after the `# Document Index` header line, before any existing entries, so the newest document is always at the top.
 
 ```markdown
 # Document Index — [Plot Name]
 
-## [filename]
+## [new-file.pdf]            <-- new entry goes here, right after the header
 - **Added:** YYYY-MM-DD
 - **Type:** Exposé | Site plan | Grid confirmation | Zoning extract | Energy data | Correspondence | Research | Photo | Map | Contract | Other
 - **Summary:** 2-4 sentences on contents, key figures, dates.
 - **Keywords:** searchable terms including German planning/energy terms (Bebauungsplan, Gewerbegebiet, Netzanschluss), names, MVA values, addresses
 
 ---
+
+## [older-file.pdf]          <-- previous entries follow below
+- **Added:** ...
+...
 ```
 
 6. **Update Notion** — if `Drive Folder URL` is empty, ask user to copy the Google Drive link once it syncs, then set it. Update `Last Updated` to today.
