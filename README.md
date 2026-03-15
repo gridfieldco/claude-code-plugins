@@ -18,6 +18,10 @@ Tools for managing Gridfield leads and plot documents.
 /plugin install leads-module@gridfield-tools
 ```
 
+**Commands:**
+
+- `/process-inbox` — Batch-process unprocessed emails: fetch last 30 without `aicheck` label, group by conversation, spawn parallel subagents to classify and ingest leads.
+
 **Skills:**
 
 - `/file-to-plot` — File documents into the correct plot folder on Google Drive, create folders with standardized naming, maintain document indexes.

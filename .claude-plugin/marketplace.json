@@ -14,7 +14,7 @@
       "name": "leads-module",
       "source": "./plugins/leads-module",
       "description": "Gridfield leads management tools — file documents into plot folders, manage lead workflows",
-      "version": "1.0.0",
+      "version": "2.0.0",
       "author": {
         "name": "Gridfield"
       },
